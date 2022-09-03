@@ -1,0 +1,32 @@
+.d-flex {
+  display: flex;
+}
+
+.Header_container {
+  box-shadow: 0 1px 0 #707070;
+  padding: 33px 14px 23px 12px;
+}
+
+.Main_container {
+  display: flex;
+  &__logo {
+    width: 33.33%;
+    height: 25px;
+    text-align: center;
+  }
+  &__header {
+    width: 33.33%;
+    font-family: "Open Sans";
+    font-size: 24px;
+  }
+  &__icon {
+    width: 33.33%;
+    text-align: end;
+    &__searchImage {
+      margin-right: 12px;
+    }
+  }
+}
+.logo_image {
+  width: 80px;
+}
